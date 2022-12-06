@@ -1,0 +1,231 @@
+/* 版心区域 */
+.banxin {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: yellow;
+}
+
+/* 顶部区域 */
+.dingbu {
+    height: 52px;
+    background-color: rgb(144, 144, 49);
+}
+
+.dingbu .banxin {
+    height: 52px;
+    /* background-color: yellow; */
+}
+
+.dingbu .banxin ul {
+    height: 52px;
+    line-height: 52px;
+    float: right;
+}
+
+.dingbu .banxin ul li {
+    float: left;
+}
+
+.dingbu .banxin a {
+    font-size: 14px;
+    color: #dcdcdc;
+    border-right: 1px solid #ccc;
+    padding: 0 15px;
+}
+
+.dingbu .banxin a:hover {
+    color: red;
+}
+
+.dingbu .banxin li:last-child a {
+    border: 0;
+}
+
+/* 头部区域 */
+.toubu {
+    height: 70px;
+    margin: 30px auto;
+    /* background-color: red; */
+}
+
+.logo {
+    float: left;
+    height: 70px;
+    width: 207px;
+    /* background-color: green; */
+}
+
+.logo a {
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+
+
+
+
+.nav {
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+    /* background-color: purple; */
+}
+
+
+.nav ul li {
+    float: left;
+    line-height: 70px;
+    margin-right: 48px;
+}
+
+.nav ul li a {
+    padding-bottom: 8px;
+}
+
+.nav ul li a:hover {
+    color: rgb(224, 245, 88);
+    border-bottom: 1px solid rgb(224, 245, 88);
+
+}
+
+
+.search {
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    background-color: rgb(254, 254, 141);
+    border-bottom: 2px solid rgb(224, 245, 88);
+}
+
+.search input {
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+    background-color: rgb(254, 254, 141);
+
+}
+
+.search span {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 17px;
+    height: 17px;
+    background-image: url(../image/sprites.png);
+    background-position: -80px -70px;
+}
+
+.car {
+    position: relative;
+    margin-top: 28px;
+    float: left;
+    margin-left: 15px;
+    width: 22px;
+    height: 23px;
+    background-image: url(../image/sprites.png);
+    background-position: -120px -70px;
+}
+
+.car span {
+    position: absolute;
+    top: -7px;
+    left: 14px;
+    width: 16px;
+    height: 15px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+
+/* 底部区域 */
+.dibu {
+    height: 343px;
+    background-color: rgb(101, 101, 36);
+}
+
+.dibu .banxin {
+    width: 1393px;
+    margin: 0 auto;
+}
+
+.dibu .banxin .top {
+    padding-top: 60px;
+    padding-left: 134px;
+    height: 174px;
+    border-bottom: 2px solid yellow;
+    /* background-color: blueviolet; */
+}
+
+.dibu .banxin .top li {
+    position: relative;
+    margin-right: 300px;
+    float: left;
+    width: 192px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.dibu .banxin .top li:last-child {
+    margin: 0;
+}
+
+.dibu .banxin .top li span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../image/sprites.png);
+    background-position: 0 0;
+}
+
+.dibu .banxin .top li:nth-child(2) span::before {
+    background-position: -130px 0;
+}
+
+.dibu .banxin .top li:nth-child(3) span::before {
+    background-position: -64px 0;
+}
+
+.dibu .banxin .top li span {
+    margin-left: 77px;
+    font-size: 27.5px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+
+
+.dibu .banxin .bottom {
+    padding-top: 40px;
+    text-align: center;
+    color: #999;
+}
+
+.dibu .banxin .bottom a {
+    font-size: 14px;
+    color: #999;
+}
+
+.dibu .banxin .bottom a:hover {
+    color: red;
+}
+
+.dibu .banxin .bottom p {
+    margin-bottom: 20px;
+}

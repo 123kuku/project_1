@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="海绵宝宝官网，致力于打造全球最大的食品、生鲜电商购物平台。">
+    <meta name="keywords" content="海绵宝宝,食品,生鲜,服装,家电,电商,购物">
+    <title>海绵宝宝的小店-新鲜、惠民、快捷！</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<style>
+    .shizhong {
+        position: relative;
+        margin: 100px auto;
+        height: 200px;
+        width: 200px;
+        background-color: antiquewhite;
+        box-shadow: 0 0 8px #ccc;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+    }
+
+    .number {
+        position: absolute;
+        top: 0;
+        left: 90px;
+        width: 20px;
+        height: 195px;
+        text-align: center;
+        padding-top: 4px;
+        font-weight: bold;
+    }
+
+    .zhen {
+        position: absolute;
+        top: 0;
+        left: 100px;
+        width: 1px;
+        height: 195px;
+        border-top: 5px solid black;
+    }
+
+    .innerDial {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: azure;
+        box-shadow: 0 0 8px #ccc;
+    }
+
+    .hourWheel {
+        position: absolute;
+        top: 48px;
+        left: 98.5px;
+        width: 3px;
+        height: 52px;
+        border-radius: 3px;
+        background-color: blueviolet;
+        transform-origin: 50% 100%;
+        transform: rotate(30deg);
+        box-shadow: 0 0 8px #ccc;
+    }
+
+    .minuteWheel {
+        position: absolute;
+        top: 32px;
+        left: 98.5px;
+        width: 3px;
+        height: 68px;
+        border-radius: 4px;
+        background-color: burlywood;
+        transform-origin: 50% 100%;
+        transform: rotate(45deg);
+        box-shadow: 0 0 8px #ccc;
+    }
+
+    .secondWheel {
+        position: absolute;
+        top: 24px;
+        left: 98.5px;
+        width: 3px;
+        height: 76px;
+        border-radius: 4px;
+        background-color: cadetblue;
+        transform-origin: 50% 100%;
+        box-shadow: 0 0 8px #ccc;
+    }
+
+    .innerCirle {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: antiquewhite;
+        box-shadow: 0 0 8px #ccc;
+    }
+</style>
+
+<body>
+    <div class="shizhong">
+        <div class="innerDial"></div>
+        <div class="hourWheel"></div>
+        <div class="minuteWheel"></div>
+        <div class="secondWheel"></div>
+        <div class="innerCircle"></div>
+    </div>
+    <!-- 顶部区域 -->
+    <div class="dingbu">
+        <div class="banxin">
+            <ul>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">请先登录</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 头部区域 -->
+    <div class="toubu banxin">
+        <div class="logo">
+            <h1><a href="#">海绵宝宝</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="搜一搜">
+            <span></span>
+        </div>
+        <div class="car">
+            <span>2</span>
+        </div>
+    </div>
+
+
+    <!-- (banner)主体区域 -->
+    <div class="banner">
+        <div class="banxin">
+            <!-- 有多少个图就有多少个li -->
+            <ul>
+                <li><a herf="#"><img src="upload/banner_1.jpg" alt=""></a></li>
+            </ul>
+
+            <!-- 侧导航 -->
+            <div class="aside">
+                <ul>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                    <li><a href="#">生鲜<span>水果 蔬菜</span></a></li>
+                </ul>
+            </div>
+
+            <!-- 箭头 -->
+            <a class="prev"></a>
+            <a class="next"></a>
+            <!-- 圆点 -->
+            <ol>
+                <li> </li>
+                <li> </li>
+                <li class="current"> </li>
+                <li> </li>
+                <li> </li>
+            </ol>
+        </div>
+    </div>
+    <!-- 新鲜好物区域 -->
+    <div class="xinxianhaowu banxin">
+        <div class="hd">
+            <h2>新鲜好物<span>新鲜出炉 品质靠谱</span></h2>
+            <a href="#">查看全部</a>
+        </div>
+        <div class="bd clearfix">
+            <ul>
+                <li>
+                    <a href="#"><img src="upload/new_goods_1.jpg" alt="">
+                        <h3>睿米无线吸尘器F8</h3>
+                        <div>￥<span>899</span></div>
+                        <b>新品</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/new_goods_2.jpg" alt="">
+                        <h3>智能环绕3D空调</h3>
+                        <div>￥<span>3399</span></div>
+                        <b>新品</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/new_goods_3.jpg" alt="">
+                        <h3>广东软软糯米煲仔饭</h3>
+                        <div>￥<span>129</span></div>
+                        <b>新品</b>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/new_goods_4.jpg" alt="">
+                        <h3>罗西机械智能手表</h3>
+                        <div>￥<span>2899</span></div>
+                        <b>新品</b>
+
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 人气推荐区域 -->
+    <div class="renqituijian banxin">
+        <div class="hd">
+            <h2>人气推荐<span>人气爆款 不容错过</span></h2>
+        </div>
+        <div class="bd clearfix">
+            <ul>
+                <li>
+                    <a href="#"><img src="upload/popular_1.jpg" alt="">
+                        <h3>特惠推荐</h3>
+                        <p>我猜得到 你的需要</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/popular_2.jpg" alt="">
+                        <h3>特惠推荐</h3>
+                        <p>我猜得到 你的需要</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/popular_3.jpg" alt="">
+                        <h3>特惠推荐</h3>
+                        <p>我猜得到 你的需要</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="upload/popular_4.jpg" alt="">
+                        <h3>特惠推荐</h3>
+                        <p>我猜得到 你的需要</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 热门品牌区域 -->
+    <div class="remenpinpai">
+        <div class="banxin">
+            <div class="hd">
+                <h2>热门品牌<span>国际经典 品质保证</span></h2>
+                <b class="b1"></b>
+                <b class="b2"></b>
+            </div>
+            <div class="bd clearfix">
+                <ul>
+                    <li><a href="#"><img src="upload/brand_goods_1.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="upload/brand_goods_2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="upload/brand_goods_3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="upload/brand_goods_4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="upload/brand_goods_5.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 生鲜区域 -->
+    <div class="shengxian">
+        <div class="banxin">
+            <div class="hd">
+                <h2>生鲜</h2>
+                <a href="#" class="more">查看全部</a>
+                <ul>
+                    <li><a href="#">水果</a></li>
+                    <li><a href="#">蔬菜</a></li>
+                    <li><a href="#">肉禽蛋</a></li>
+                    <li><a href="#">裤装</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">内衣</a></li>
+                </ul>
+            </div>
+            <div class="bd clearfix">
+                <div class="left">
+                    <a href="#"><img src="upload/fresh_goods_cover.png" alt=""></a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_1.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_2.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_3.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_4.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_5.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_6.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_7.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/fresh_goods_8.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 服饰区域 -->
+    <div class="fushi">
+        <div class="banxin">
+            <div class="hd">
+                <h2>服饰</h2>
+                <a href="#" class="more">查看全部</a>
+                <ul>
+                    <li><a href="#">水果</a></li>
+                    <li><a href="#">蔬菜</a></li>
+                    <li><a href="#">肉禽蛋</a></li>
+                    <li><a href="#">裤装</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">内衣</a></li>
+                </ul>
+            </div>
+            <div class="bd clearfix">
+                <div class="left">
+                    <a href="#"><img src="upload/clothes_goods_cover.jpg" alt=""></a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_1.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_2.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_3.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_4.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_5.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_6.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_7.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/clothes_goods_8.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 餐厨区域 -->
+    <div class="canchu">
+        <div class="banxin">
+            <div class="hd">
+                <h2>餐厨</h2>
+                <a href="#" class="more">查看全部</a>
+                <ul>
+                    <li><a href="#">水果</a></li>
+                    <li><a href="#">蔬菜</a></li>
+                    <li><a href="#">肉禽蛋</a></li>
+                    <li><a href="#">裤装</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">内衣</a></li>
+                </ul>
+            </div>
+            <div class="bd clearfix">
+                <div class="left">
+                    <a href="#"><img src="upload/kitchen_goods_cover.jpg" alt=""></a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_1.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_2.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_3.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_4.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_5.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_6.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_7.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/kitchen_goods_8.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 居家区域 -->
+    <div class="jujia">
+        <div class="banxin">
+            <div class="hd">
+                <h2>居家</h2>
+                <a href="#" class="more">查看全部</a>
+                <ul>
+                    <li><a href="#">水果</a></li>
+                    <li><a href="#">蔬菜</a></li>
+                    <li><a href="#">肉禽蛋</a></li>
+                    <li><a href="#">裤装</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">内衣</a></li>
+                </ul>
+            </div>
+            <div class="bd clearfix">
+                <div class="left">
+                    <a href="#"><img src="upload/home_goods_cover.jpg" alt=""></a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_1.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_2.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_3.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_4.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_5.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_6.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_7.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="upload/home_goods_8.jpg" alt="">
+                                <p> &nbsp;&nbsp;美威 智利原味三文鱼排<br> &nbsp;&nbsp;&nbsp;240g/袋<br>&nbsp; 海鲜年货</p>
+                                <div>&nbsp;&nbsp;￥<span>59</span></div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最新专题 -->
+    <div class="zuixinzhuanti">
+        <div class="banxin">
+            <div class="hd">
+                <h2>最新专题</h2>
+                <a href="#"> 查看全部</a>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="upload/topic_goods_1.jpg" alt="">
+                            <div class="xuanfu">
+                                <div class="left">
+                                    <h4>吃这些美食才不算辜负自己</h4>
+                                    <p>餐厨起居洗护好物</p>
+                                </div>
+                                <div class="price"><span>￥</span>29.9起</div>
+                            </div>
+                        </a>
+                        <div class="bdbottom">
+                            <span class="one">1222</span>
+                            <span class="two">1222</span>
+                            <span class="three">1231</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="upload/topic_goods_2.jpg" alt="">
+                            <div class="xuanfu">
+                                <div class="left">
+                                    <h4>吃这些美食才不算辜负自己</h4>
+                                    <p>餐厨起居洗护好物</p>
+                                </div>
+                                <div class="price"><span>￥</span>29.9起</div>
+                            </div>
+                        </a>
+                        <div class="bdbottom">
+                            <span class="one">1222</span>
+                            <span class="two">1222</span>
+                            <span class="three">1231</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="upload/topic_goods_3.jpg" alt="">
+                            <div class="xuanfu">
+                                <div class="left">
+                                    <h4>吃这些美食才不算辜负自己</h4>
+                                    <p>餐厨起居洗护好物</p>
+                                </div>
+                                <div class="price"><span>￥</span>29.9起</div>
+                            </div>
+                        </a>
+                        <div class="bdbottom">
+                            <span class="one">1222</span>
+                            <span class="two">1222</span>
+                            <span class="three">1231</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="kehufuwu">
+        <div class="banxin clearfix">
+            <ul>
+                <li>
+                    <p>客户服务</p>
+                    <a href="#" class="hezi1"><span></span>在线客服</a>
+                    <a href="#" class="hezi2"><span></span>问题反馈</a>
+                </li>
+                <li>
+                    <p>关注我们</p>
+                    <a href="#" class="hezi1"><span></span>公众号</a>
+                    <a href="#" class="hezi2"><span></span>微博</a>
+                </li>
+                <li>
+                    <p class="xiazai">下载APP</p>
+                    <a href="#" class="erweima"><img src="image/weixin.jpg" alt=""></a>
+                    <div class="saomiao">扫描二维码<br>立即下载app
+                        <a href="#">下载页面</a>
+                    </div>
+                </li>
+                <li>
+                    <p class="tell">服务热线</p>
+                    <div class="time"><b>173-5378-7091</b><br>
+                        周一至周日 8:00-18:00</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <div class="dibu">
+        <div class="banxin">
+            <div class="top">
+                <ul>
+                    <li>
+                        <span>价格亲民</span>
+                    </li>
+                    <li>
+                        <span>物流快捷</span>
+                    </li>
+                    <li>
+                        <span>品质新鲜</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <p>
+                    <a href="#">关于我们</a> &nbsp;|&nbsp;
+                    <a href="#">帮助中心</a> &nbsp;|&nbsp;
+                    <a href="#">售后服务</a> &nbsp;|&nbsp;
+                    <a href="#">配送与政策</a> &nbsp;|&nbsp;
+                    <a href="#">商务合作</a> &nbsp;|&nbsp;
+                    <a href="#">搜索推荐</a> &nbsp;|&nbsp;
+                    <a href="#">友情链接</a>
+                </p>
+                <p>HaiMiaobb @ 蜜桃吴龙茶 合作:wouooooooooo</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var innerDial = document.querySelector('.innerDial');
+        var hourWheel = document.querySelector('.hourWheel');
+        var minuteWheel = document.querySelector('.minuteWheel');
+        var secondWheel = document.querySelector('.secondWheel');
+        var zhong = document.querySelector('.shizhong');
+        for (var i = 1; i <= 60; i++) {
+            var zhen = document.createElement('div');
+            zhen.setAttribute('class', 'zhen');
+            zhen.style.transform = 'rotate(' + i * 6 + 'deg)';
+            if (i % 5 == 0) {
+                zhen.style.width = '2px';
+            }
+            zhong.appendChild(zhen);
+        }
+        for (var i = 1; i < 13; i++) {
+            var num = document.createElement('div');
+            num.setAttribute('class', 'number');
+            num.innerText = i;
+            // var d=i*30;
+            num.style.transform = 'rotate(' + i * 30 + 'deg)';
+            zhong.appendChild(num);
+        }
+        setInterval(() => {
+            var date = new Date();
+            var h = date.getHours();
+            h = h > 12 ? h - 12 : h;
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            hourWheel.style.transform = 'rotate(' + h * 30 + 'deg)';
+            minuteWheel.style.transform = 'rotate(' + m * 6 + 'deg)';
+            secondWheel.style.transform = 'rotate(' + s * 6 + 'deg)';
+        }, 1000);
+    </script>
+</body>
+
+</html>
